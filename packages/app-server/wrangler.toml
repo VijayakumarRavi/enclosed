@@ -5,3 +5,9 @@ pages_build_output_dir = "./dist"
 [[kv_namespaces]]
 binding = "enclosed-notes"
 id = "6d0f6d8e5856444a9635b8df6393b50f"
+
+[vars]
+NODE_VERSION = "22.0.0"
+STORAGE_DRIVER_CLOUDFLARE_KV_BINDING = "enclosed-notes"
+PUBLIC_IS_AUTHENTICATION_REQUIRED = "true"
+NOTES_MAX_ENCRYPTED_PAYLOAD_LENGTH = "524288000000000000"
